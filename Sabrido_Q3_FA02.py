@@ -9,7 +9,7 @@ steps = np.array([
     [6000, 5800, 5900, 6100, 6700]   # Aston
 ])
 
-# Display all step data
 print("Daily steps (Monday to Friday):")
 for i in range(len(names)):
     print(names[i], ":", steps[i])
+
